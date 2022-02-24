@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ETIQUETAS REQUERIDAS -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- OBTENCION DE ESTILOS - BULMA -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <link rel="shortcut icon"
+        href="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/UTTHalcon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <title>UTEC</title>
+
+</head>
+
+<body>
+
+    <center>
+        <section class="hero">
+            <div class="column is-menu-bg" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+
+                <span class="tag is-small" style="font-size:11px;">
+                    <a href="gobierno.hidalgo.gob.mx">Gobierno</a>
+                </span>
+
+                <span class="tag" style="font-size:11px;">
+                    <a href="https://ruts.hidalgo.gob.mx/">Trámites y servicios</a>
+                </span>
+
+                <span class="tag" style="font-size:11px;">
+                    <a href="https://hidalgo.travel/wordpress/">Hidalgo travel</a>
+                </span>
+
+                <span class="tag" style="font-size:11px;">
+                    <a href="http://transparencia.hidalgo.gob.mx/">Transparencia</a>
+                </span>
+
+                <!-- TODO: Cambiar las lineas que hacen referencia a las paginas de la univerdad -->
+
+                <span class="tag" style="font-size:11px;">
+                    <a href="utectulancingo.edu.mx/calendario/actual.pdf">Calendario Escolar</a>
+                </span>
+
+                <span class="tag" style="font-size:11px;">
+                    <a href="utectulancingo.edu.mx/submenu/agenda.html">Agenda Institucional</a>
+                </span>
+
+                <span class="tag" style="font-size:11px;">
+                    <a href="https://mail.google.com/mail/u/0/#inbox">Correo Electrónico</a>
+                </span>
+
+                <span class="tag" style="font-size:11px;">
+                    <a href="200.79.176.154/buzon/views/index.php">SQR</a>
+                </span>
+
+            </div>
+
+        </section>
+    </center>
+
+    <div class="container">
+
+
+        <!-- MENU - BURGER -->
+
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="./index.html">
+                    <img src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/UTT-Tulancingo.webp"
+                        width="auto" height="auto">
+                </a>
+
+                <div class="navbar-burger"
+                    onclick="document.querySelector('.navbar-menu').classList.toggle('is-active'); document.querySelector('.navbar-burger').classList.toggle('is-active');">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="./index.html">
+                        Inicio
+                    </a>
+
+                    <a class="navbar-item" href="./conocenos.html">
+                        Conócenos
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <a class="navbar-link" href="./ofertaeducativa.html">
+                            Oferta educativa
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="./criminalistica.html">
+                                Licenciatura en Criminalística
+                            </a>
+                            <a class="navbar-item" href="./enfermeria.html">
+                                Licenciatura en Enfermería
+                            </a>
+
+                            <a class="navbar-item" href="./contaduria.html">
+                                Licenciatura en Contaduría
+                            </a>
+
+                            <a class="navbar-item" href="./terapia.html">
+                                Licenciatura en Terapia física
+                            </a>
+
+                            <a class="navbar-item" href="./negocios.html">
+                                Licenciatura en Innovación de negocios y mercadotecnia
+                            </a>
+
+                            <a class="navbar-item" href="./digital.html">
+                                Licenciatura en Diseño digital
+                            </a>
+
+                            <a class="navbar-item" href="./reproductiva.html">
+                                Licenciatura en Salud reproductiva y partería
+                            </a>
+
+                            <hr class="navbar-divider">
+
+                            <a class="navbar-item" href="./industrial.html">
+                                Ingeniería Industrial
+                            </a>
+
+                            <a class="navbar-item" href="./nanotecnologia.html">
+                                Ingeniería en Nanotecnología
+                            </a>
+
+                            <a class="navbar-item" href="./desarrollo.html">
+                                Ingeniería en Desarrollo y gestión de software
+                            </a>
+
+                            <a class="navbar-item" href="./renovables.html">
+                                Ingeniería en Energías renovables
+                            </a>
+
+                            <a class="navbar-item" href="./mecatronica.html">
+                                Ingeniería en Mecatrónica
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="navbar-item" href="./comunidad.html">
+                        Comunidad
+                    </a>
+
+                    <a class="navbar-item" href="./transparencia.html">
+                        Transparencia
+                    </a>
+
+                    <a class="navbar-item" href="./calendario.html">
+                        Calendario
+                    </a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a href="./sistemas.html" class="button is-link">
+                                <h6>Accede al sistema</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <a href="#" class="btn-flotante" style="font-size:25px; align-items: center; align-self: center;">◮</a>
+
+    <!-- HERO DEGRADADO - BACKGROUND -->
+
+    <section class="hero is-medium">
+        <div class="hero-encabezado-tecnologias">
+
+            <div class="column">
+
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size:42px">
+
+                    Ingeniería en Desarrollo y Gestión de Software.
+
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="hero">
+        <!--div class="column"-->
+        <nav class="breadcrumb is-small is-right" aria-label="breadcrumbs">
+            <div class="column is-11" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+
+                <ul>
+
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./ofertaeducativa.html">Oferta Educativa</a></li>
+                    <li class="is-active"><a href="./desarrollo.html" aria-current="page"><strong>Desarrollo y
+                                Gestión</strong></a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+        <!--/div-->
+    </section>
+
+    <br>
+
+    <!-- Descripcion: Carrera -->
+
+    <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+
+        <!-- COLUMNA 1 -->
+
+        <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+            <!-- Column -->
+        </div>
+
+        <!-- COLUMNA 2 -->
+
+        <div class="column is-auto">
+
+            <div class="content column">
+                <br>
+
+                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Detalle del programa.</h2>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Construir soluciones de
+                    software y <strong>sistemas inteligentes</strong> mediante la gestión de proyectos, integración de
+                    metodologías, modelos
+                    y herramientas de desarrollo bajo la normatividad aplicable para la optimización de proyectos
+                    de investigación, innovación, <strong>desarrollo tecnológico</strong> y de emprendimiento.
+                </p>
+
+                <blockquote>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                        <strong>Características de la Carrera.</strong>
+                        <br>
+                        <br>
+                        <strong>• Grado:</strong> Ingeniería.
+                        <br><strong>• Modalidad:</strong> Presencial.
+                        <br><strong>• Duración:</strong> 11 Cuatrimestres.
+                        <br><strong>• Estadía:</strong> Obligartoria.
+                    </p>
+                </blockquote>
+
+                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Requisitos de Titulación.</h2>
+
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <strong>1.</strong> Acreditar el 100% de las materias que contempla el plan de estudios vigente
+                    al momento de la solicitud correspondiente.
+                    <br><strong>2.</strong> La culminación y acreditación de la Estadía profesional.
+                    <br><strong>3.</strong> Cumplir con los lineamientos normativos y administrativos previstos para
+                    la titulación.
+                </p>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="card-animations-sys">
+
+                    <img style="border-radius: 0.5rem;"
+                        src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Desarrollo%20de%20Software/Desarrollo-Software-Pres%201.webp" />
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Perfil de Egreso.
+                </h2>
+
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                    El Ingeniero en Desarrollo y Gestión de Software <strong>podrá desenvolverse</strong> como:
+
+                    <br>
+
+                    <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+
+                        <!-- COLUMNA 1 -->
+
+                        <div class="column auto">
+
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Programador Full Stack.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Desarrollador de Apps.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Líder de proyectos de desarrollo de software.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Arquitecto de software.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Diseñador de sistemas de información.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Gestor para el diseño, ejecución y mantenimiento de sistemas de información.</li>
+                        </div>
+
+                        <!-- COLUMNA 2 -->
+
+                        <div class="column auto">
+
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Ejecutivo integrador de tecnologías de vanguardia para optimizar la operación de
+                                industrias y empresas.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Administrador de proyectos de desarrollo de software.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Director/Gerente de Tecnologías de Información.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Director/Gerente de Desarrollo de software.</li>
+                        </div>
+
+                    </div>
+
+                    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">¿Dónde puedes trabajar al
+                        concluir?.</h2>
+
+
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif;  text-align: justify;">
+
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            En sectores
+                            privados, públicos y sociales, en diversas ramas productivas que demanden
+                            servicios de desarrollo, integración y gestión de soluciones de software.</li>
+
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            De forma
+                            independiente mediante la integración de empresas orientadas al desarrollo y la
+                            consultoría
+                            de software.</li>
+                    </p>
+
+            </div>
+        </div>
+
+        <!-- Segunda columna 2 -->
+
+        <div class="column auto">
+            <div class="card-content">
+                <div class="content">
+
+
+                    <div class="card-animations-sys">
+
+                        <img style="border-radius: 0.5rem;"
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Desarrollo%20de%20Software/Desarrollo-Software-Pres3.webp" />
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="content">
+                        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Plan de estudios.
+                        </h2>
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Nuestro plan de estudio
+                            han sido <strong>diseñado para formar profesionistas de excelencia</strong>
+                            académica. A través del conjunto de conocimientos prácticos y teóricos,
+                            serás capaz de desarrollar las aptitudes necesarias para abrirte las puertas al mercado
+                            laboral actual.
+                        </p>
+
+                        <blockquote>
+                            <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                                <a
+                                    href="https://github.com/CarmenKaplanB/UTT-Develop-Process/blob/main/Plan%20IDGS.pdf">
+                                    <button style="font-family: Georgia, 'Times New Roman', Times, serif;"
+                                        class="button is-normal is-info">
+                                        Conoce el plan de estudios
+                                    </button>
+                                </a>
+
+                            </p>
+                        </blockquote>
+
+                        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Perfil de Ingreso.
+                        </h2>
+
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
+
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Bachillerato concluido con promedio mínimo de 7.0.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Iniciativa para la investigación.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Capacidad de adaptación al auto-aprendizaje.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Participativos, creativos, propositivos.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Gusto por conocer las tecnologías y ciencias exactas.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Respeto por la institución, profesores, compañeros y personal de
+                                apoyo, responsabilidad y honestidad.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Pensamiento lógico, analítico, crítico y reflexivo.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Comunicación efectiva y el trabajo colaborativo, comprensión de
+                                lectura y razonamiento lógico.</li>
+                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                                Conocimiento a nivel medio superior de Ciencias sociales, Ciencias
+                                exactas y Computación.</li>
+                        </p>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="card-animations-sys">
+
+                        <img style="border-radius: 0.5rem;"
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Desarrollo%20de%20Software/Desarrollo-Software-Pres%202.webp" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- COLUMNA 4 -->
+
+        <div class="column is-1">
+            <!-- Column -->
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Galeria de la carrera -->
+
+    <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd"
+        style="background-color: #072138;">
+        <!-- COLUMNA 1 -->
+
+        <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;"
+            style="background-color: #072138;">
+            <!-- Column -->
+        </div>
+
+        <!-- COLUMNA 1 -->
+
+        <div class="column auto" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+            <br>
+            <h3
+                style="font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif; color: white; text-align: center;">
+                Eventos especiales de tu carrera.
+            </h3>
+        </div>
+
+        <!-- COLUMNA 1 -->
+
+        <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;"
+            style="background-color: #072138;">
+            <!-- Column -->
+        </div>
+    </div>
+
+
+    <!-- Primera seccion: Galeria-Carrera -->
+
+    <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd"
+        style="background-color: #072138;">
+
+        <!-- COLUMNA 1 -->
+
+        <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;"
+            style="background-color: #072138;">
+            <!-- Column -->
+        </div>
+
+        <!-- COLUMNA 2 -->
+
+        <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;"
+            style="background-color: #072138;">
+            <div class="content">
+                <div class="image-galery">
+                    <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
+
+                        <img
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Entrega-P-Integrador.webp" />
+                        <img
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Entrega-P-Integrador.webp" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMNA 3 -->
+
+        <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;">
+            <div class="content">
+                <div class="image-galery">
+                    <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
+
+                        <img
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-A.webp" />
+                        <img
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-A.webp" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMNA 2 -->
+
+        <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;"
+            style="background-color: #072138;">
+            <div class="content">
+                <div class="image-galery">
+                    <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
+
+                        <img
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-Drones.webp" />
+                        <img
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-Drones.webp" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMNA 4 -->
+
+        <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;">
+            <div class="content">
+                <div class="image-galery">
+                    <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
+
+                        <img
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Hackathon.webp" />
+                        <img
+                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Hackathon.webp" />
+
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <!-- COLUMNA 5 -->
+
+        <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+            <!-- Column -->
+        </div>
+
+    </div>
+
+
+
+    <!-- PIE DE PAGINA -->
+
+    <footer class="footer"
+        style="font-family: Georgia, 'Times New Roman', Times, serif; background-color: #112c44; color: white;">
+        <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+
+            <div class="column is-1">
+                <!-- Column -->
+            </div>
+
+            <div class="column is-6">
+                <img src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/logo_gobhidalgo.webp"
+                    width="300px" height="380px" alt="UTEC" />
+
+                <br>
+                <br>
+                Universidad Tecnologica de Tulancingo, organismo descentralizado de la administración pública estatal
+                del
+                Subsistema de Universidades Tecnológicas y Politécnicas.
+                <br>
+                <br>
+
+                <strong style="font-family: Georgia, 'Times New Roman', Times, serif; color: white;">
+                    Camino a Ahuehuetitla 301 <br>
+                    Col. Las Presas Tulancingo,<br>
+                    Hidalgo, México C.P. 43645<br>
+                    Tel. 7712474026
+                </strong>
+                </h1>
+            </div>
+
+            <div class="column">
+                <!-- Column -->
+            </div>
+
+            <div class="column is-3">
+                <p class="bd-notification">
+
+                    <img src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/escudo_blanco.webp"
+                        width="95px" height="95px" alt="UTEC"
+                        style="font-family: Georgia, 'Times New Roman', Times, serif; color: white;" />
+
+                    <h1>
+                        <strong style="font-family: Georgia, 'Times New Roman', Times, serif; color: white;">¡No lo
+                            pienses
+                            más!</strong><br>
+                        Forma parte de esta comunidad educativa y crece profesionalmente.</h1>
+
+                    <br>
+                    <br>
+                    <ul class="redes-button" id="redes">
+                        <center>
+                            <li>
+                                <a href="#" class="brandico-twitter-bird"></a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="brandico-facebook"></a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="brandico-instagram"></a>
+                            <li>
+                        </center>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="column is-1">
+                <!-- Column -->
+            </div>
+
+        </div>
+    </footer>
+
+    <section class="hero-dark">
+        <div class="hero-bodys">
+            <h1 style="color: white">
+                <div class="column is-one-third">
+                    <center>
+                        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                            Copyright © 2022
+                        </h1>
+                    </center>
+                </div>
+            </h1>
+        </div>
+    </section>
+
+</body>
+
+</html>
