@@ -3,19 +3,19 @@
 
 <head>
 
-    <!-- ETIQUETAS REQUERIDAS -->
+  <!-- ETIQUETAS REQUERIDAS -->
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- OBTENCION DE ESTILOS - BULMA -->
+  <!-- OBTENCION DE ESTILOS - BULMA -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-    <link rel="shortcut icon"
-        href="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/UTTHalcon.ico">
-    <link rel="stylesheet" href="./style.css">
-    <title>UTEC</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <link rel="shortcut icon"
+    href="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/UTTHalcon.ico">
+  <link rel="stylesheet" href="./style.css">
+  <title>UTEC</title>
 
 </head>
 
@@ -794,170 +794,174 @@
       font-size: 14px;
     }
   </style>
-  
-    <center>
-        <section class="hero">
-            <div class="column is-menu-bg" style="font-family: Georgia, 'Times New Roman', Times, serif;">
 
-                <span class="tag is-small" style="font-size:11px;">
-                    <a href="gobierno.hidalgo.gob.mx">Gobierno</a>
-                </span>
+  <!-- INICIO DEL MENU - BULMA -->
 
-                <span class="tag" style="font-size:11px;">
-                    <a href="https://ruts.hidalgo.gob.mx/">Trámites y servicios</a>
-                </span>
+  <center>
 
-                <span class="tag" style="font-size:11px;">
-                    <a href="https://hidalgo.travel/wordpress/">Hidalgo travel</a>
-                </span>
+    <section class="hero">
+      <div class="column is-menu-bg"
+        style="font-family: Georgia, 'Times New Roman', Times, serif;  background-color: #072138;">
 
-                <span class="tag" style="font-size:11px;">
-                    <a href="http://transparencia.hidalgo.gob.mx/">Transparencia</a>
-                </span>
+        <!-- TODO: Cambiar las lineas que hacen referencia a las paginas de la univerdad -->
 
-                <!-- TODO: Cambiar las lineas que hacen referencia a las paginas de la univerdad -->
+        <span class="tag is-small" style="font-size:11px; background-color: #072138; color: white;">
+          <a href="gobierno.hidalgo.gob.mx">
+            <img src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/f-hidalgo-logo.webp"
+              width="100px" height="180px"></a>
+        </span>
 
-                <span class="tag" style="font-size:11px;">
-                    <a href="utectulancingo.edu.mx/calendario/actual.pdf">Calendario Escolar</a>
-                </span>
+        <span class="tag is-small" style="font-size:11px; background-color: #072138; ">
+          <a href="gobierno.hidalgo.gob.mx" style="color: white;">Gobierno</a>
+        </span>
 
-                <span class="tag" style="font-size:11px;">
-                    <a href="utectulancingo.edu.mx/submenu/agenda.html">Agenda Institucional</a>
-                </span>
+        <span class="tag" style="font-size:11px; background-color: #072138;">
+          <a href="https://ruts.hidalgo.gob.mx/" style="color: white;">Trámites y servicios</a>
+        </span>
 
-                <span class="tag" style="font-size:11px;">
-                    <a href="https://mail.google.com/mail/u/0/#inbox">Correo Electrónico</a>
-                </span>
+        <span class="tag" style="font-size:11px; background-color: #072138;">
+          <a href="https://hidalgo.travel/wordpress/" style="color: white;">Hidalgo travel</a>
+        </span>
 
-                <span class="tag" style="font-size:11px;">
-                    <a href="200.79.176.154/buzon/views/index.php">SQR</a>
-                </span>
+        <span class="tag" style="font-size:11px; background-color: #072138;">
+          <a href="http://transparencia.hidalgo.gob.mx/" style="color: white;">Transparencia</a>
+        </span>
 
-            </div>
+      </div>
+    </section>
 
-        </section>
-    </center>
+  </center>
+
+  <header class="sticky-header" data-react-to-megamenu="true" data-sticky-header="true">
 
     <div class="container">
 
+      <!-- MENU - BURGER -->
 
-        <!-- MENU - BURGER -->
+      <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/index">
+                <img src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/UTT-Tulancingo.webp"
+              width="auto" height="auto">
+          </a>
 
-        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="./index.html">
-                    <img src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Logos/UTT-Tulancingo.webp"
-                        width="auto" height="auto">
+          <div class="navbar-burger"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active'); document.querySelector('.navbar-burger').classList.toggle('is-active');">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+        </div>
+
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="/index">
+              Inicio
+            </a>
+
+            <a class="navbar-item" href="/conocenos">
+              Conócenos
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+
+              <a class="navbar-link" href="/ofertaeducativa">
+                Oferta educativa
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/criminalistica">
+                  Licenciatura en Criminalística
+                </a>
+                <a class="navbar-item" href="/enfermeria">
+                  Licenciatura en Enfermería
                 </a>
 
-                <div class="navbar-burger"
-                    onclick="document.querySelector('.navbar-menu').classList.toggle('is-active'); document.querySelector('.navbar-burger').classList.toggle('is-active');">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <a class="navbar-item" href="/contaduria">
+                  Licenciatura en Contaduría
+                </a>
 
+                <a class="navbar-item" href="/terapia">
+                  Licenciatura en Terapia física
+                </a>
+
+                <a class="navbar-item" href="/negocios">
+                  Licenciatura en Innovación de negocios y mercadotecnia
+                </a>
+
+                <a class="navbar-item" href="/digital">
+                  Licenciatura en Diseño digital
+                </a>
+
+                <a class="navbar-item" href="/reproductiva">
+                  Licenciatura en Salud reproductiva y partería
+                </a>
+
+                <hr class="navbar-divider">
+
+                <a class="navbar-item" href="/industrial">
+                  Ingeniería Industrial
+                </a>
+
+                <a class="navbar-item" href="/nanotecnologia">
+                  Ingeniería en Nanotecnología
+                </a>
+
+                <a class="navbar-item" href="/desarrollo">
+                  Ingeniería en Desarrollo y gestión de software
+                </a>
+
+                <a class="navbar-item" href="/renovables">
+                  Ingeniería en Energías renovables
+                </a>
+
+                <a class="navbar-item" href="/mecatronica">
+                  Ingeniería en Mecatrónica
+                </a>
+              </div>
             </div>
 
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="./index.html">
-                        Inicio
-                    </a>
+            <a class="navbar-item" href="/comunidad">
+              Comunidad
+            </a>
 
-                    <a class="navbar-item" href="./conocenos.html">
-                        Conócenos
-                    </a>
+            <a class="navbar-item" href="/transparencia">
+              Transparencia
+            </a>
 
-                    <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item" href="/calendario">
+              Calendario
+            </a>
 
-                        <a class="navbar-link" href="./ofertaeducativa.html">
-                            Oferta educativa
-                        </a>
+            <a class="navbar-item" href="http://200.79.176.154/buzon/views/index.php">
+              Buzón
+            </a>
 
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="./criminalistica.html">
-                                Licenciatura en Criminalística
-                            </a>
-                            <a class="navbar-item" href="./enfermeria.html">
-                                Licenciatura en Enfermería
-                            </a>
+          </div>
 
-                            <a class="navbar-item" href="./contaduria.html">
-                                Licenciatura en Contaduría
-                            </a>
-
-                            <a class="navbar-item" href="./terapia.html">
-                                Licenciatura en Terapia física
-                            </a>
-
-                            <a class="navbar-item" href="./negocios.html">
-                                Licenciatura en Innovación de negocios y mercadotecnia
-                            </a>
-
-                            <a class="navbar-item" href="./digital.html">
-                                Licenciatura en Diseño digital
-                            </a>
-
-                            <a class="navbar-item" href="./reproductiva.html">
-                                Licenciatura en Salud reproductiva y partería
-                            </a>
-
-                            <hr class="navbar-divider">
-
-                            <a class="navbar-item" href="./industrial.html">
-                                Ingeniería Industrial
-                            </a>
-
-                            <a class="navbar-item" href="./nanotecnologia.html">
-                                Ingeniería en Nanotecnología
-                            </a>
-
-                            <a class="navbar-item" href="./desarrollo.html">
-                                Ingeniería en Desarrollo y gestión de software
-                            </a>
-
-                            <a class="navbar-item" href="./renovables.html">
-                                Ingeniería en Energías renovables
-                            </a>
-
-                            <a class="navbar-item" href="./mecatronica.html">
-                                Ingeniería en Mecatrónica
-                            </a>
-                        </div>
-                    </div>
-
-                    <a class="navbar-item" href="./comunidad.html">
-                        Comunidad
-                    </a>
-
-                    <a class="navbar-item" href="./transparencia.html">
-                        Transparencia
-                    </a>
-
-                    <a class="navbar-item" href="./calendario.html">
-                        Calendario
-                    </a>
-                </div>
-
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a href="./sistemas.html" class="button is-link">
-                                <h6>Accede al sistema</h6>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a href="/sistemas" class="button is-link is-rounded is-small">
+                  <h6>Accede</h6>
+                </a>
+              </div>
             </div>
-        </nav>
+          </div>
+
+        </div>
+      </nav>
     </div>
+  </header>
 
-    <a href="#" class="btn-flotante">🔼</a>
+
+    </section>
+    </center>
+
+    <a href="#" class="btn-flotante" style="font-size:25px; align-items: center; align-self: center;">◮</a>
 
     <!-- HERO DEGRADADO - BACKGROUND -->
-
-    <!-- TODO: Separarla como dos textos diferentes -->
 
     <section class="hero is-medium">
         <div class="hero-encabezado-tecnologias">
@@ -982,9 +986,9 @@
 
                 <ul>
 
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./ofertaeducativa.html">Oferta Educativa</a></li>
-                    <li class="is-active"><a href="./desarrollo.html" aria-current="page"><strong>Desarrollo y
+                    <li><a href="/index">Inicio</a></li>
+                    <li><a href="/ofertaeducativa">Oferta Educativa</a></li>
+                    <li class="is-active"><a href="/desarrollo" aria-current="page"><strong>Desarrollo y
                                 Gestión</strong></a>
                     </li>
 
@@ -1010,8 +1014,6 @@
 
         <!-- COLUMNA 2 -->
 
-        <!-- TODO: Revisar si esta mejor con 4 o  con 5 -->
-
         <div class="column is-auto">
 
             <div class="content column">
@@ -1019,10 +1021,14 @@
 
                 <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Detalle del programa.</h2>
                 <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Construir soluciones de
-                    software y <strong>sistemas inteligentes</strong> mediante la gestión de proyectos, integración de
+                    software y <a style="font-size:16px; font-family: Georgia, 'Times New Roman', Times, serif;"
+                        class="underlined underlined--gradient"><b>sistemas inteligentes</b></a> mediante la gestión de
+                    proyectos, integración de
                     metodologías, modelos
                     y herramientas de desarrollo bajo la normatividad aplicable para la optimización de proyectos
-                    de investigación, innovación, <strong>desarrollo tecnológico</strong> y de emprendimiento.
+                    de investigación, innovación, <a
+                        style="font-size:16px; font-family: Georgia, 'Times New Roman', Times, serif;"
+                        class="underlined underlined--gradient"><b>desarrollo tecnológico</b></a> y de emprendimiento.
                 </p>
 
                 <blockquote>
@@ -1050,8 +1056,6 @@
                 <br>
                 <br>
                 <br>
-                <br>
-                <br>
 
                 <div class="card-animations-sys">
 
@@ -1060,14 +1064,14 @@
                 </div>
 
                 <br>
-                <br>
-                <br>
 
                 <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Perfil de Egreso.
                 </h2>
 
                 <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
-                    El Ingeniero en Desarrollo y Gestión de Software <strong>podrá desenvolverse</strong> como:
+                    El Ingeniero en Desarrollo y Gestión de Software <a
+                        style="font-size:16px; font-family: Georgia, 'Times New Roman', Times, serif;"
+                        class="underlined underlined--gradient"><b>podrá desenvolverse</b></a> como:
 
                     <br>
 
@@ -1116,12 +1120,15 @@
 
                         <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
                             En sectores
-                            privados, públicos y sociales, en diversas ramas productivas que demanden
-                            servicios de desarrollo, integración y gestión de soluciones de software.</li>
+                            <a style="font-size:16px; font-family: Georgia, 'Times New Roman', Times, serif;"
+                                class="underlined underlined--gradient"><b>privados, públicos y sociales, en diversas
+                                    ramas productivas </b></a>que demanden servicios de desarrollo, integración y
+                            gestión de soluciones de software.</li>
 
                         <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                            De forma
-                            independiente mediante la integración de empresas orientadas al desarrollo y la
+                            De forma <a style="font-size:16px; font-family: Georgia, 'Times New Roman', Times, serif;"
+                                class="underlined underlined--gradient"><b>independiente</b></a>
+                            mediante la integración de empresas orientadas al desarrollo y la
                             consultoría
                             de software.</li>
                     </p>
@@ -1143,71 +1150,68 @@
                     </div>
                     <br>
                     <br>
-                    <br>
-                    <br>
-                    <br>
 
-                    <div class="content">
-                        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Plan de estudios.
-                        </h2>
-                        <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Nuestro plan de estudio
-                            han sido <strong>diseñado para formar profesionistas de excelencia</strong>
-                            académica. A través del conjunto de conocimientos prácticos y teóricos,
-                            serás capaz de desarrollar las aptitudes necesarias para abrirte las puertas al mercado
-                            laboral actual.
-                        </p>
+                    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Perfil de Ingreso.
+                    </h2>
 
-                        <blockquote>
-                            <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
-                                <a
-                                    href="https://github.com/CarmenKaplanB/UTT-Develop-Process/blob/main/Plan%20IDGS.pdf">
-                                    <button style="font-family: Georgia, 'Times New Roman', Times, serif;"
-                                        class="button is-normal is-info">
-                                        Conoce el plan de estudios
-                                    </button>
-                                </a>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
 
-                            </p>
-                        </blockquote>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Bachillerato concluido con promedio mínimo de 7.0.</li>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Iniciativa para la investigación.</li>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Capacidad de adaptación al auto-aprendizaje.</li>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Participativos, creativos, propositivos.</li>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Gusto por conocer las tecnologías y ciencias exactas.</li>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Respeto por la institución, profesores, compañeros y personal de
+                            apoyo, responsabilidad y honestidad.</li>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Pensamiento lógico, analítico, crítico y reflexivo.</li>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Comunicación efectiva y el trabajo colaborativo, comprensión de
+                            lectura y razonamiento lógico.</li>
+                        <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
+                            Conocimiento a nivel medio superior de Ciencias sociales, Ciencias
+                            exactas y Computación.</li>
+                    </p>
+                </div>
 
-                        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Perfil de Ingreso.
-                        </h2>
+                <br>
 
+                <div class="content">
+                    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Plan de estudios.
+                    </h2>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Nuestro plan de estudio
+                        han sido <a style="font-size:16px; font-family: Georgia, 'Times New Roman', Times, serif;"
+                            class="underlined underlined--gradient"><b>diseñado para formar profesionistas de
+                                excelencia</b></a>
+                        académica. A través del conjunto de conocimientos prácticos y teóricos,
+                        serás capaz de desarrollar las aptitudes necesarias para abrirte las puertas al mercado
+                        laboral actual.
+                    </p>
+
+                    <blockquote>
                         <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                            <!-- Segunda seccion:  -->
 
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Bachillerato concluido con promedio mínimo de 7.0.</li>
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Iniciativa para la investigación.</li>
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Capacidad de adaptación al auto-aprendizaje.</li>
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Participativos, creativos, propositivos.</li>
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Gusto por conocer las tecnologías y ciencias exactas.</li>
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Respeto por la institución, profesores, compañeros y personal de
-                                apoyo, responsabilidad y honestidad.</li>
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Pensamiento lógico, analítico, crítico y reflexivo.</li>
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Comunicación efectiva y el trabajo colaborativo, comprensión de
-                                lectura y razonamiento lógico.</li>
-                            <li style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: justify;">
-                                Conocimiento a nivel medio superior de Ciencias sociales, Ciencias
-                                exactas y Computación.</li>
+                            <div class="column">
+                                <div
+                                    class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+                                    <object data="Recursos\Plan-IDGS.pdf" type="application/pdf" width="1410"
+                                        height="700">
+                                        <a href="Recursos\Plan-IDGS.pdf">Plan de estudios: IDGS</a>
+                                    </object>
+                                </div>
+                            </div>
+                            <!--embed src="Recursos\Plan-IDGS.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" /-->
+
                         </p>
-                    </div>
 
-                    <br>
-                    <br>
-                    <br>
-
-                    <div class="card-animations-sys">
-
-                        <img style="border-radius: 0.5rem;"
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Desarrollo%20de%20Software/Desarrollo-Software-Pres%202.webp" />
-                    </div>
+                    </blockquote>
 
                 </div>
             </div>
@@ -1257,93 +1261,99 @@
 
     <!-- Primera seccion: Galeria-Carrera -->
 
-    <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd"
-        style="background-color: #072138;">
+    <section class="hero-dark">
+        <div class="hero-bodys">
 
-        <!-- COLUMNA 1 -->
+            <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd"
+                style="background-color: #072138;">
 
-        <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;"
-            style="background-color: #072138;">
-            <!-- Column -->
-        </div>
+                <!-- COLUMNA 1 -->
 
-        <!-- COLUMNA 2 -->
+                <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;"
+                    style="background-color: #072138;">
+                    <!-- Column -->
+                </div>
 
-        <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;"
-            style="background-color: #072138;">
-            <div class="content">
-                <div class="image-galery">
-                    <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
+                <!-- COLUMNA 2 -->
 
-                        <img
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Entrega-P-Integrador.webp" />
-                        <img
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Entrega-P-Integrador.webp" />
+                <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;"
+                    style="background-color: #072138;">
+                    <div class="content">
+                        <div class="image-galery">
+                            <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
 
+                                <img
+                                    src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Entrega-P-Integrador.webp" />
+                                <img
+                                    src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Entrega-P-Integrador.webp" />
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- COLUMNA 3 -->
+                <!-- COLUMNA 3 -->
 
-        <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;">
-            <div class="content">
-                <div class="image-galery">
-                    <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
+                <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <div class="content">
+                        <div class="image-galery">
+                            <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
 
-                        <img
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-A.webp" />
-                        <img
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-A.webp" />
+                                <img
+                                    src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-A.webp" />
+                                <img
+                                    src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-A.webp" />
 
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- COLUMNA 2 -->
+                <!-- COLUMNA 2 -->
 
-        <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;"
-            style="background-color: #072138;">
-            <div class="content">
-                <div class="image-galery">
-                    <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
+                <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;"
+                    style="background-color: #072138;">
+                    <div class="content">
+                        <div class="image-galery">
+                            <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
 
-                        <img
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-Drones.webp" />
-                        <img
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-Drones.webp" />
+                                <img
+                                    src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-Drones.webp" />
+                                <img
+                                    src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Conferencia-Drones.webp" />
 
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- COLUMNA 4 -->
+                <!-- COLUMNA 4 -->
 
-        <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;">
-            <div class="content">
-                <div class="image-galery">
-                    <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
+                <div class="column auto" style=" font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <div class="content">
+                        <div class="image-galery">
+                            <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);">
 
-                        <img
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Hackathon.webp" />
-                        <img
-                            src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Hackathon.webp" />
+                                <img
+                                    src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Hackathon.webp" />
+                                <img
+                                    src="https://raw.githubusercontent.com/CarmenKaplanB/UTT/main/Recursos/Carreras/Hackathon.webp" />
 
+                            </div>
+                        </div>
                     </div>
+                    <br>
                 </div>
+
+                <!-- COLUMNA 5 -->
+
+                <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <!-- Column -->
+                </div>
+
             </div>
-            <br>
-        </div>
 
-        <!-- COLUMNA 5 -->
-
-        <div class="column is-1" style="font-family: Georgia, 'Times New Roman', Times, serif;">
-            <!-- Column -->
-        </div>
-
+    </section>
     </div>
 
 
